@@ -1,0 +1,7 @@
+class MathUtility{
+    static multiply =(num1,num2)=>{
+        return num1*num2;
+    }
+}
+console.log(MathUtility.multiply(5, 3)); 
+console.log(MathUtility.multiply(2, 8)); 
