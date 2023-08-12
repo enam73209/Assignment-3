@@ -1,0 +1,7 @@
+findMaxNumber =(numbers)=>{
+    return Math.max(...numbers);
+}
+const numbers1 = [10, 20, 5, 30, 25];
+const numbers2 = [5, 15, 7];
+console.log(findMaxNumber(numbers1));
+console.log(findMaxNumber(numbers2));
