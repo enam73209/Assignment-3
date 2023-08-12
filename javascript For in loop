@@ -1,0 +1,19 @@
+const printObjectProperties =(object)=>{
+    if(Object.keys(object).length ===0){
+        console.log("Object is empty");
+    }
+    else{
+        for(let obj in object){
+            console.log(`"${obj}: ${object[obj]}"`);
+        }
+    }
+    
+}
+let obj1 ={
+    name:"Enam",
+    Religion: "Islam"
+}
+let obj2 ={
+    
+}
+printObjectProperties(obj1);
